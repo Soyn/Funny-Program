@@ -1,1 +1,1 @@
-I coded some funny python program in Python,and i share with you.
+I coded some funny python programs in Python,and i share with you.
