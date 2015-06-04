@@ -1,0 +1,1 @@
+I coded some funny python program in Python,and i share with you.
