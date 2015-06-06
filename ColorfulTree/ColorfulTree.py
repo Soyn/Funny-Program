@@ -3,18 +3,21 @@ __author__ = 'dell'
 
 import turtle
 from random import *
+import  TreeGUI
+
 def tree(branchLen, t):
     t.pencolor((random(), random(), random()))
     if branchLen > 5:
         t.forward(branchLen)
         t.right(10)
-        tree(branchLen - 5, t)
+        tree(branchLen - 15, t)
         t.left(20)
-        tree(branchLen - 5, t)
+        tree(branchLen - 15, t)
         t.right(10)
         t.backward(branchLen)
 
 def main():
+    reload(TreeGUI)
     t = turtle.Turtle()
     t.hideturtle()
     t.pensize(10)
@@ -27,5 +30,4 @@ def main():
     tree(75, t)
     myWin.exitonclick()
 
-main()
 
