@@ -2,8 +2,26 @@
 __author__ = 'dell'
 
 import turtle
+from  Tkinter import *
 from random import *
-import  TreeGUI
+
+
+def createGUI():
+    TreeControl = Tk()
+    TreeControl.title("Awesome-Tree")
+    Label(TreeControl, text = "Step").grid(row = 0, column = 0)
+    Entry1 = Entry(TreeControl)
+    Entry1.grid(row = 0, column = 1)
+    step = Entry1.get()
+
+    Label(TreeControl, text = "TreeLength").grid(row = 2, column = 0)
+    Entry2 = Entry(TreeControl)
+    Entry2.grid(row = 2, column = 1)
+    treeLength = Entry2.get()
+
+
+    Button(TreeControl, text = "Draw A Tree", command = Draw).grid(row = 1, column = 2, rowspan = 3)
+    TreeControl.mainloop()
 
 def tree(branchLen, t):
     t.pencolor((random(), random(), random()))
@@ -16,8 +34,7 @@ def tree(branchLen, t):
         t.right(10)
         t.backward(branchLen)
 
-def main():
-    reload(TreeGUI)
+def Draw():
     t = turtle.Turtle()
     t.hideturtle()
     t.pensize(10)
@@ -30,4 +47,5 @@ def main():
     tree(75, t)
     myWin.exitonclick()
 
-
+if __name__ == "__main__":
+    createGUI()
