@@ -5,19 +5,20 @@ import turtle
 from  Tkinter import *
 from random import *
 
-
-def createGUI():
+BranchLength = 75
+Step = 5
+def createGUI(Step = 5, BranchLength = 75):
     TreeControl = Tk()
     TreeControl.title("Awesome-Tree")
     Label(TreeControl, text = "Step").grid(row = 0, column = 0)
     Entry1 = Entry(TreeControl)
     Entry1.grid(row = 0, column = 1)
-    step = Entry1.get()
+    Step = Entry1.get()
 
     Label(TreeControl, text = "TreeLength").grid(row = 2, column = 0)
     Entry2 = Entry(TreeControl)
     Entry2.grid(row = 2, column = 1)
-    treeLength = Entry2.get()
+    BranchLength = Entry2.get()
 
 
     Button(TreeControl, text = "Draw A Tree", command = Draw).grid(row = 1, column = 2, rowspan = 3)
