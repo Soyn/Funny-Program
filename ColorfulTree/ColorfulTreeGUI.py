@@ -17,13 +17,12 @@ class DrawATree():
         Label(TreeControl, text = "Step").grid(row = 0, column = 0)
         Entry1 = Entry(TreeControl)
         Entry1.grid(row = 0, column = 1)
-        self.Step = int(Entry1.get(), basestring)
-        print self.Step
+        self.Step = Entry1.get()
 
         Label(TreeControl, text = "TreeLength").grid(row = 2, column = 0)
         Entry2 = Entry(TreeControl)
         Entry2.grid(row = 2, column = 1)
-        self.BranchLength = int(Entry2.get(), basestring)
+        self.BranchLength = Entry2.get()
 
 
         Button(TreeControl, text = "Draw A Tree", command = self.Draw).grid(row = 1, column = 2, rowspan = 3)
@@ -32,6 +31,7 @@ class DrawATree():
     def tree(self, t):
         t.pencolor((random(), random(), random()))
         if self.BranchLength > 5:
+            print self.BranchLength
             t.forward(self.BranchLength)
             t.right(10)
             tree(self.BranchLength - self.Step, t)
