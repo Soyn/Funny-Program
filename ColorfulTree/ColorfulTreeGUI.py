@@ -15,14 +15,16 @@ class DrawATree():
         TreeControl = Tk()
         TreeControl.title("Awesome-Tree")
         Label(TreeControl, text = "Step").grid(row = 0, column = 0)
-        Entry1 = Entry(TreeControl)
+        e = StringVar()
+        Entry1 = Entry(TreeControl, textvariable  = e)
         Entry1.grid(row = 0, column = 1)
-        self.Step = Entry1.get()
+        self.Step = e.get()
 
         Label(TreeControl, text = "TreeLength").grid(row = 2, column = 0)
-        Entry2 = Entry(TreeControl)
+        t = StringVar()
+        Entry2 = Entry(TreeControl, textvariable = t)
         Entry2.grid(row = 2, column = 1)
-        self.BranchLength = Entry2.get()
+        self.BranchLength = t.get()
 
 
         Button(TreeControl, text = "Draw A Tree", command = self.Draw).grid(row = 1, column = 2, rowspan = 3)

@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorfulTree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ColorfulTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1798">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="31" selection-end-column="31" />
+            <state vertical-scroll-proportion="1.8235294" vertical-offset="0" max-vertical-offset="1798">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorfulTreeGUI.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColorfulTreeGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTreeGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21634616" vertical-offset="454" max-vertical-offset="1953">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2015">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#42#63#0" expanded="true" />
               </folding>
@@ -65,14 +65,14 @@
         <option value="$PROJECT_DIR$/ColorfulTree/TreeGUI.py" />
         <option value="$PROJECT_DIR$/ColorfulTree/ColorfulTree.py" />
         <option value="$PROJECT_DIR$/ColorfulTree/ColorfulTreeGUI.py" />
+        <option value="$PROJECT_DIR$/ColorfulTree/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-58" />
+    <option name="width" value="820" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -106,7 +106,7 @@
     <property name="last_opened_file_path" value="F:/MachineLearning/Algorithm/TreeBasedRegression/treeExplore.py" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Python.ColorfulTreeGUI">
+  <component name="RunManager" selected="Python.ColorfulTree">
     <configuration default="false" name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,8 +333,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ColorfulTreeGUI" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ColorfulTree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ColorfulTree" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ColorfulTreeGUI" />
         <item index="2" class="java.lang.String" itemvalue="Python.TreeGUI" />
         <item index="3" class="java.lang.String" itemvalue="Python.treeExplore" />
         <item index="4" class="java.lang.String" itemvalue="Python.hello" />
@@ -355,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-58" y="0" width="820" height="768" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,7 +365,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.474732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47252747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -407,6 +407,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1798">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTreeGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1953">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1798">
@@ -517,22 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTree.py">
+    <entry file="file://$PROJECT_DIR$/ColorfulTree/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1798">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#42#55#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="620">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTreeGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21634616" vertical-offset="454" max-vertical-offset="1953">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2015">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#42#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ColorfulTree/ColorfulTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8235294" vertical-offset="0" max-vertical-offset="1798">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
