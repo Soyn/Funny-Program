@@ -26,7 +26,12 @@ class DrawATree(object):
         Entry3.grid(row = 3, column = 1)
         Button(TreeControl, text = "Quit", command = TreeControl.quit).grid(row = 2, column = 2)
         Button(TreeControl, text = "Draw A Tree", command = lambda e1 = Entry1, e2 = Entry2, e3 = Entry3: self.Draw(e1, e2,e3)).grid(row = 3, column = 2, rowspan = 3)
+        Button(TreeControl, text = "Save Picture", command = self.SaveScreenShot).grid(row = 1, column = 2)
         TreeControl.mainloop()
+
+    def SaveScreenShot(self):
+        ts = turtle.getscreen()
+        ts.getcanvas().postscript(file = "screenshot.png")
 
 
 
