@@ -1,5 +1,5 @@
 #-*- coding:utf8-*-
-__author__ = 'dell'
+__author__ = 'Yao Wang'
 
 
 from Tkinter import *
