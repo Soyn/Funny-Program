@@ -1,47 +1,41 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <map>
-#include <set>
-#include <fstream>
-#include <sstream>
-#include<memory>
-#include<cctype>
-#include<clocale>
+#include<sstream>
+#include<algorithm>
+#include "Ex12.27.h"
 
-using namespace std;
 /*
-* Ex12.28
+* the Simple text query
 * Date:2015.7.14
 */
+using namespace std;
 
-int main()
-{
-    ifstream inFile("test.txt");
-    using LineNo = vector< string> :: size_type;
+TextQuery :: TextQuery(ifstream &ifs) : input(new vector<string>){
     LineNo lineNo(0);
-    map<string, set< LineNo>> result;
-    shared_ptr< vector< string> > input;
-
-    for(string line; getline(inFile, line);++lineNo){
+    for( string line, getline(ifs, line); ++lineNo){
         input -> push_back(line);
         istringstream line_stream(line);
         for( string text, word; line_stream >> text; word.clear()){
-            remove_copy_if(text.begin(), text.end(), back_inserter(word), ispunct);
-            result[word].insert(lineNo);
+            //remove the punctation of the word(such as:  word,   )
+            remove_copy_if(text.begin(), text.end(), back_inserter(word), ispunct());
+
+            //read the word and the line number
+            auto &nos = result[word];
+
+            if(!nos) nos.reset(new set<lineNo>);  // if the word doesn't exsit
+            nos -> insert(LineNo);
         }
     }
+}
 
-    string word;
-    cout << " Plz enter the word you want to query: " << endl;
-    cin >> word;
-    auto found = result.find(word);
-    if( found != result.end()){
-        cout <<  word << "  occurs " << found -> second.size() << (found -> second.size() > 1 ? "times" : "time") << endl;
-        for( auto i : found -> second){
-            cout << "\t( line " << i + 1 <<  ")" << input -> at(i) << endl;
-        }
-    } else cout << word << "occurs 0 times" << endl;
-    return 0;
+QueryResult TextQuery :: query(const string& str) const {
+    static shared_ptr<set<LineNo> > nodate(new set<LineNo>);
+    auto found = result.find(str);
+    if( found == result.end() ) return QueryResult( str, nodate, input);
+    else return QueryResult( str, found -> second, input);
+}
+
+ostream print(ostream &out, const QueryResult &qr){
+    out << qr.word << "  occurs  " << qr.nos -> size() << (qr.size() > 1 ? " times" : " time") << endl;
+    for( auto i : *qr.nos)
+        out << "\t(line )" << i + 1 << ")   " << qr.input ->at(i) << endl;
+    return out;
 }
