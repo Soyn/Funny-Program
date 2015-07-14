@@ -5,4 +5,6 @@ Here are some funny programs i write in python.
 
 
 ![image](https://github.com/Soyn/Funny-Program/raw/master/screenshots/ColorfulTree.png)
+
+#2.this is a program to query a word in a text
                                               
