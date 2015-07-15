@@ -9,7 +9,6 @@
 #include<algorithm>
 #include <fstream>
 #include <sstream>
-#include<iostream>
 /*
 *@Breif:the head file of Ex12.30
 *@Soyn
