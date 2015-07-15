@@ -1,5 +1,5 @@
 # Funny-Program
-##Here are some funny programs i write in python.
+##Here are some funny programs i write.
 
 * 1.`this is a colorful tree's screenshot.`
 
