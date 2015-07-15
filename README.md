@@ -7,4 +7,9 @@
 ![image](https://github.com/Soyn/Funny-Program/raw/master/screenshots/ColorfulTree.png)
 
 * 2.`this is a program to query a word in a text`
-                                              
+###we input a word:
+![image](https://github.com/Soyn/Funny-Program/raw/master/screenshots/Wait2Input.png)
+##display the result
+![image](https://github.com/Soyn/Funny-Program/raw/master/screenshots/GetInput.png)
+##quit
+![image](https://github.com/Soyn/Funny-Program/raw/master/screenshots/Quit.png)
